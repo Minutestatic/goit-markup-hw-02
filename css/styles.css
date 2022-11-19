@@ -1,0 +1,91 @@
+/* цвет основного текста  #757575 */
+/* цвет вторичного текста #212121; */
+/* цвет акцента #2196F3 */
+/* цвет белый #FFFFFF */
+/* цвет фона вторичный #F5F4FA;*/
+/* цвет ссылок в футере rgba(255, 255, 255, 0.6); */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --acent-color: #2196f3;
+}
+
+.list {
+  list-style: none;
+}
+
+body {
+  border-color: #ffffff;
+  color: var(--primary-text-color);
+}
+/* Site logo */
+
+.logo {
+  color: #000000;
+}
+
+/* .logo:hover,
+.logo:focus {
+  color: var(--acent-color);
+} */
+
+.logo span {
+  color: var(--acent-color);
+}
+
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--acent-color);
+}
+/* Contact */
+.contact .link {
+  color: #757575;
+}
+.contact .link:hover,
+.contact .link:focus {
+  color: var(--acent-color);
+}
+/* Main content */
+/* Hero */
+.hero-title {
+  color: #ffffff;
+}
+/* Section */
+.section-title {
+  color: var(--title-text-color);
+}
+/* Features */
+.features .title {
+  color: var(--title-text-color);
+}
+/* Team */
+.team-list .title {
+  color: var(--title-text-color);
+}
+
+/* Footer */
+.page-footer {
+  background-color: #2f303a;
+}
+
+.logo-footer {
+  color: #ffffff;
+}
+
+.logo-footer span {
+  color: var(--acent-color);
+}
+
+.adds-list a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.adds-list a[href="https://goo.gl/maps/W5uvphnCs49Fz31s8"]
+{
+  color: #ffffff;
+}
