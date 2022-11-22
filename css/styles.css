@@ -8,7 +8,15 @@
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
-  --acent-color: #2196f3;
+  --acent-text-color: #2196f3;
+  --withe-text-color: #ffffff;
+  --black-text-color: #000000;
+
+  --link-footer-color: rgba(255, 255, 255, 0.6);
+
+  --main-page-color: #ffffff;
+  --secondary-page-color: #f5f4fa;
+  --footer-color: #2f303a;
 }
 
 .list {
@@ -16,45 +24,54 @@
 }
 
 body {
-  border-color: #ffffff;
+  border-color: var(--main-page-color);
   color: var(--primary-text-color);
 }
-/* Site logo */
 
+/* Footer */
+
+/* Site logo */
 .logo {
-  color: #000000;
+  color: var(--black-text-color);
 }
 
 /* .logo:hover,
 .logo:focus {
-  color: var(--acent-color);
+  color: var(--acent-text-color);
 } */
 
 .logo span {
-  color: var(--acent-color);
+  color: var(--acent-text-color);
 }
-
+/* Footer-nav */
 .site-nav .link {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--acent-color);
+  color: var(--acent-text-color);
 }
-/* Contact */
+
+.site-nav .link.current {
+  color: var(--acent-text-color);
+}
+/* Footer-Contact */
 .contact .link {
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .contact .link:hover,
 .contact .link:focus {
-  color: var(--acent-color);
+  color: var(--acent-text-color);
 }
+
 /* Main content */
 /* Hero */
+
 .hero-title {
-  color: #ffffff;
+  color: var(--withe-text-color);
 }
+
 /* Section */
 .section-title {
   color: var(--title-text-color);
@@ -70,22 +87,52 @@ body {
 
 /* Footer */
 .page-footer {
-  background-color: #2f303a;
+  background-color: var(--footer-color);
 }
 
 .logo-footer {
-  color: #ffffff;
+  color: var(--withe-text-color);
 }
 
 .logo-footer span {
-  color: var(--acent-color);
+  color: var(--acent-text-color);
 }
 
 .adds-list a {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--link-footer-color);
 }
 
 .adds-list a[href="https://goo.gl/maps/W5uvphnCs49Fz31s8"]
 {
-  color: #ffffff;
+  color: var(--withe-text-color);
+}
+/* Button! */
+.button {
+  color: var(--black-text-color);
+  background: var(--withe-text-color);
+}
+
+.button.primary {
+  color: var(--withe-text-color);
+  background-color: var(--acent-text-color);
+}
+
+/* Button Project.html */
+.button.content {
+  color: var(--title-text-color);
+  background-color: var(--secondary-page-color);
+}
+.button.content:hover,
+.button.content:focus {
+  color: var(--withe-text-color);
+  background-color: var(--acent-text-color);
+}
+
+/* Portfolio.html */
+/* Main content */
+.project-list h3 {
+  color: var(--title-text-color);
+}
+.project-list p {
+  color: var(--primary-text-color);
 }
