@@ -26,6 +26,8 @@
 body {
   border-color: var(--main-page-color);
   color: var(--primary-text-color);
+  font-family: Roboto;
+  letter-spacing: 0.03em;
 }
 
 /* Footer */
@@ -33,6 +35,10 @@ body {
 /* Site logo */
 .logo {
   color: var(--black-text-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
 /* .logo:hover,
@@ -46,6 +52,9 @@ body {
 /* Footer-nav */
 .site-nav .link {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
 }
 
 .site-nav .link:hover,
@@ -59,6 +68,9 @@ body {
 /* Footer-Contact */
 .contact .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
 }
 .contact .link:hover,
 .contact .link:focus {
@@ -70,6 +82,11 @@ body {
 
 .hero-title {
   color: var(--withe-text-color);
+  background-color: var(--footer-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.3;
+  text-align: center;
 }
 
 /* Section */
